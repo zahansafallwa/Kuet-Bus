@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+
+    >
+
+<!-- Here you put the rest of your current view-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Question: How to set the alarm?"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="You can set alarm by clicking content of from campus and to campus page. You can also set custom alarm by going to alarm list and clicking add floating button."
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView5"
+        android:textColor="#666666"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Question: How much time before bus time the alarm goes off?"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:id="@+id/textView7"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="By default it is set to 5 mins. But you can change it from option menu on top right corner of screen."
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView8"
+        android:textColor="#666666"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Question: Is the app updated from webpage?"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:id="@+id/textView9"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="5dp"
+        android:textColor="#666666"
+        android:text="As the bus scedule is not changed every now and then in KUET. So, the data are static. But if there is a change in schedule we will release new version. The notice is updated from a website though. And any temporary changes in schedule are also shown in temporary section from internet."
+        android:id="@+id/textView10"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
+</ScrollView>

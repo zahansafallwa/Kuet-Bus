@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:padding="8dp">
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="20dp"
+        android:text="This is an application for viewing the bus schedule of Khulna University of Engineering and Technology(KUET).
+        \n\nThe features of this application are:\n\n1. Complete schedule view\n2. Arranged schedule view\n3. Alarm\n4. Online notice
+        \n\nThe notice is collected from a website. The website is updated with new notices everyday. So, you need an active internet connection to view the notice.
+        \n\nNo support issue was found with this application in any android harware or OS version. But if you face any please contact developer."
+        android:id="@+id/textView12" />
+</LinearLayout>
+</ScrollView>
