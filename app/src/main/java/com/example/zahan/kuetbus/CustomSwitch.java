@@ -43,7 +43,7 @@ public class CustomSwitch extends FrameLayout {
         } else {
             button = new CheckBox(context);
         }
-        button.setId(1);
+        button.setId(R.id.custom_id_1);
         button.setText("");
 
         RelativeLayout.LayoutParams buttonParams = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
@@ -55,7 +55,7 @@ public class CustomSwitch extends FrameLayout {
 
 
         label = new TextView(context);
-        label.setId(2);
+        label.setId(R.id.custom_id_2);
 
         RelativeLayout.LayoutParams labelParams = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
         labelParams.leftMargin = 8;
